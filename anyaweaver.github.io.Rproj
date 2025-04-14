@@ -1,0 +1,16 @@
+Version: 1.0
+ProjectId: 643abdf9-e06c-4ad2-b574-ebddd828f138
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+ProjectName: anyaweaver.github.io

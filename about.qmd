@@ -1,0 +1,11 @@
+---
+title: "About this site"
+---
+
+About this site
+
+This is my website. I am a senior at Mount Holyoke College.
+
+```{r}
+1 + 1
+```
