@@ -9,13 +9,13 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: Test.qmd
-        text: Test
+      - href: STAT-244-SC.qmd
+        text: STAT244-SC
       
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
 

@@ -2,10 +2,20 @@
 title: "About this site"
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+library(rmarkdown)
+library(knitr)
+```
+
 About this site
 
-This is my website. I am a senior at Mount Holyoke College.
+Hi! My name is Anya, and I am a Senior at Mount Holyoke College. I am interested in machine learning and statistics!
 
-```{r}
-1 + 1
+```{r, echo=FALSE}
+knitr::include_graphics("Merlin Pymol.jpg")
 ```
+
+This is an image of two views of the merlin protein, made in Pymol. It is a protein produced by the NF2 gene and is responsible for many cellular functions.
+
+To contact me, please reach out via [LinkedIn](www.linkedin.com/in/anya-weaver-b10671201){.uri}.

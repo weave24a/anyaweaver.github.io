@@ -1,0 +1,44 @@
+---
+title: "STAT 244-SC"
+format: html
+editor: visual
+---
+
+## Final Project
+
+This webpage will have the results of my final project for STAT 244-SC. I am analyzing the link between student debt and median earnings 1 and 5 years after graduation for biochemistry and biology majors according to the College Scorecard project.
+
+## Basic Information
+
+Here are some figures that provide an introduction to the dataset I am analyzing.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+library(readr)
+library(purrr)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(mosaic)
+library(gmodels)
+library(Sleuth3)
+biomajor = read_csv("biomajor.csv")
+```
+
+```{r}
+#Commented out until I fix my dataset
+#biomajor %>%
+#ggplot(aes(x = Debt_Median, y = Earnings_median_5yr)) +
+#geom_point() +
+#labs(x = 'Median Debt ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
+#theme_classic()
+
+
+#biomajor %>%
+#ggplot(aes(x = Earnings_median_1yr, y = Earnings_median_5yr)) +
+#geom_point() +
+#labs(x = 'Median Earnings 1 Year After Graduation ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
+#theme_classic()
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
