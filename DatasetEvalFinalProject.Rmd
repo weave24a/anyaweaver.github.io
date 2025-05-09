@@ -1,0 +1,203 @@
+---
+title: "Data Evaluation for Final Project"
+subtitle: "STAT 244"
+author: "Anya Weaver"
+output:
+  pdf_document:
+    fig_height: 1.5
+    fig_width: 4
+    highlight: zenburn
+header-includes:
+  - \usepackage{booktabs}
+---
+
+Setup file
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+library(readr)
+library(purrr)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(mosaic)
+library(gmodels)
+library(Sleuth3)
+```
+
+Load dataset of interest:
+
+```{r}
+#commented out because I made a new CSV
+field = read_csv("Field.csv")
+```
+
+Rename CIPDESC to major for clarity:
+
+```{r}
+field = rename(field, Major = CIPDESC)
+```
+
+Asses contents of Dataset:
+
+```{r}
+head(field)
+```
+
+Sort by Major to asses options:
+
+```{r}
+# commented out b/c it takes a while, makes a lot of data, and I don't need to do it again
+#table(field$major)
+```
+
+Mutate Dataset to only include Biology, General and  Biochemistry, Biophysics and Molecular Biology Majors & rename those majors to biology and biochem+:
+
+```{r}
+field = field  %>% mutate(Major = ifelse(Major == 'Biochemistry, Biophysics and Molecular Biology.', "biochem+", Major))
+
+field = field  %>% mutate(Major = ifelse(Major == 'Biology, General.', "biology", Major))
+
+bio <- field %>% filter((Major == 'biochem+') | (Major == 'biology'))
+
+bio <- bio %>% mutate(Major = as.factor(Major))
+```
+
+Turn new dataset into its own CSV so I don't have to load field again:
+
+```{r}
+#commented out because I only need the one CSV
+write_csv(bio, "bio.csv")
+bio = read_csv("bio.csv")
+```
+
+Mutate Dataset to only include some variables:
+
+```{r}
+#figure out what column names translate to the columns DEBTMEDIAN, DEBTMEAN, and MD_EARN_WNE. Figure out how gender comes into it. 
+
+bio <- bio %>% select(Major, INSTNM, CONTROL, CREDDESC, DEBT_ALL_PP_EVAL_MDN, DEBT_ALL_STGP_EVAL_MDN, EARN_MDN_HI_1YR, DISTANCE, EARN_MDN_5YR)
+head(bio)
+```
+
+Filter out non responses:
+
+```{r}
+bio = bio %>% filter(!is.na(DEBT_ALL_PP_EVAL_MDN) & (DEBT_ALL_PP_EVAL_MDN !="PS"))
+```
+
+Add STGPand PP together to make one value for debt:
+
+```{r}
+bio$DEBT_ALL_PP_EVAL_MDN = as.numeric(bio$DEBT_ALL_PP_EVAL_MDN)
+bio$DEBT_ALL_STGP_EVAL_MDN = as.numeric(bio$DEBT_ALL_STGP_EVAL_MDN)
+bio$Debt_median <- bio$DEBT_ALL_PP_EVAL_MDN + bio$DEBT_ALL_STGP_EVAL_MDN
+```
+
+Rename included variables for clarity:
+
+```{r}
+bio = rename(bio, Institution = INSTNM)
+bio = rename(bio, School_type = CONTROL)
+bio = rename(bio, Degree = CREDDESC)
+bio = rename(bio, Distance = DISTANCE)
+bio = rename(bio, Earnings_median_1yr = EARN_MDN_HI_1YR)
+bio = rename(bio, Earnings_median_5yr = EARN_MDN_5YR)
+```
+
+Remove old columns:
+
+```{r}
+bio <- bio %>% select(Major, Institution, 
+                          School_type, Degree, Debt_median, Distance, Earnings_median_1yr, Earnings_median_5yr)
+head(bio)
+```
+Filter out NAs:
+
+```{r}
+bio$Earnings_median_1yr = as.numeric(bio$Earnings_median_1yr)
+bio$Earnings_median_5yr = as.numeric(bio$Earnings_median_5yr)
+```
+
+
+Make sure quantitative variables are recorded as numbers:
+
+```{r}
+bio = bio %>% filter(!is.na(Earnings_median_1yr) & (Earnings_median_5yr !="PS"))
+bio$Earnings_median_1yr = as.numeric(bio$Earnings_median_1yr)
+bio$Earnings_median_5yr = as.numeric(bio$Earnings_median_5yr)
+```
+
+Analyze Quantitative Variables:
+
+```{r}
+mean(bio$Debt_median)
+sd(bio$Debt_median)
+
+mean(bio$Earnings_median_1yr)
+sd(bio$Earnings_median_1yr)
+
+mean(bio$Earnings_median_5yr)
+sd(bio$Earnings_median_5yr)
+```
+
+Analyze Qualitative Variables:
+
+```{r}
+count(bio$Institution)
+
+count(bio$School_type)
+
+count(bio$Degree)
+
+count(bio$Distance)
+
+```
+
+Produce data visualizations
+
+```{r}
+bio %>%
+ggplot(aes(x = Debt_median, y = Earnings_median_5yr)) +
+geom_point() +
+labs(x = 'Median Debt ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
+theme_classic()
+
+
+bio %>%
+ggplot(aes(x = Earnings_median_1yr, y = Earnings_median_5yr)) +
+geom_point() +
+labs(x = 'Median Earnings 1 Year After Graduation ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Debt_median, y = Earnings_median_1yr)) +
+geom_point() +
+labs(x = 'Median Debt ($', y = 'Median Earnings 1 Year After Graduation ($)') +
+theme_classic()
+
+```
+
+Histograms for dataset:
+
+```{r}
+
+```
+
+Histograms for dataset:
+
+```{r}
+
+```
+
+Histograms for dataset:
+
+```{r}
+
+```
+
+Histograms for dataset:
+
+```{r}
+
+```
