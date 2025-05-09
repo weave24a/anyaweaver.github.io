@@ -1,4 +1,40 @@
 ---
+title: "Final Project Data Evaluation"
+author: "Anya Weaver"
+# format: live-html
+# engine: knitr
+format: #revealjs
+    pdf:
+      keep-tex: true
+      include-in-header:
+         text: |
+           \usepackage{fvextra}
+           \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+            \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
+    html:
+      self-contained: true
+      grid:
+        margin-width: 200px
+      code-fold: false
+      toc: true
+      # callout-appearance: minimal
+# You can change the color theme of the rendered document 
+theme: Yeti
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(
+  error = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.height = 2.75, 
+  fig.width = 4.25,
+  fig.env='figure',
+  fig.pos = 'h',
+  fig.align = 'center')
+```
+
+---
 title: "Data Evaluation for Final Project"
 subtitle: "STAT 244"
 author: "Anya Weaver"
@@ -191,20 +227,4 @@ Histograms for dataset:
 
 ```
 
-Histograms for dataset:
 
-```{r}
-
-```
-
-Histograms for dataset:
-
-```{r}
-
-```
-
-Histograms for dataset:
-
-```{r}
-
-```

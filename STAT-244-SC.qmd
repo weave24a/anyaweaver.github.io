@@ -22,23 +22,22 @@ library(gridExtra)
 library(mosaic)
 library(gmodels)
 library(Sleuth3)
-biomajor = read_csv("biomajor.csv")
+bio = read_csv("bio.csv")
 ```
 
-```{r}
-#Commented out until I fix my dataset
-#biomajor %>%
-#ggplot(aes(x = Debt_Median, y = Earnings_median_5yr)) +
-#geom_point() +
-#labs(x = 'Median Debt ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
-#theme_classic()
+```{r, echo: false}
+bio %>%
+ggplot(aes(x = Debt_median, y = Earnings_median_5yr)) +
+geom_point() +
+labs(x = 'Median Debt ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
+theme_classic()
 
 
-#biomajor %>%
-#ggplot(aes(x = Earnings_median_1yr, y = Earnings_median_5yr)) +
-#geom_point() +
-#labs(x = 'Median Earnings 1 Year After Graduation ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
-#theme_classic()
+bio %>%
+ggplot(aes(x = Earnings_median_1yr, y = Earnings_median_5yr)) +
+geom_point() +
+labs(x = 'Median Earnings 1 Year After Graduation ($)', y = 'Median Earnings 5 Years After Graduation ($)') +
+theme_classic()
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).

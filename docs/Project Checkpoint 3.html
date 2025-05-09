@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Anya Weaver">
 
-<title>STAT 244-SC – Anya’s Website!</title>
+<title>Project Checkpoint 3: New Methodologies – Anya’s Website!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -131,8 +98,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">About this site</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./STAT-244-SC.html" aria-current="page"> 
-<span class="menu-text">STAT244-SC</span></a>
+    <a class="nav-link" href="./STAT-244-SC.html"> 
+<span class="menu-text">Test</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -150,8 +117,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#final-project" id="toc-final-project" class="nav-link active" data-scroll-target="#final-project">Final Project</a></li>
-  <li><a href="#basic-information" id="toc-basic-information" class="nav-link" data-scroll-target="#basic-information">Basic Information</a></li>
+  <li><a href="#project-checkpoint-3-new-methodologies" id="toc-project-checkpoint-3-new-methodologies" class="nav-link active" data-scroll-target="#project-checkpoint-3-new-methodologies">Project Checkpoint 3: New Methodologies</a>
+  <ul class="collapse">
+  <li><a href="#table-of-contents" id="toc-table-of-contents" class="nav-link" data-scroll-target="#table-of-contents">Table of Contents</a></li>
+  <li><a href="#cross-validation-cv-required" id="toc-cross-validation-cv-required" class="nav-link" data-scroll-target="#cross-validation-cv-required">Cross Validation (CV) — <strong>Required</strong></a></li>
+  <li><a href="#option-variable-subset-selection" id="toc-option-variable-subset-selection" class="nav-link" data-scroll-target="#option-variable-subset-selection">Option: Variable Subset Selection</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -160,13 +131,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">STAT 244-SC</h1>
+<h1 class="title">Project Checkpoint 3: New Methodologies</h1>
+<p class="subtitle lead">STAT 244</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Anya Weaver </p>
+          </div>
+  </div>
     
   
     
@@ -177,42 +155,132 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="final-project" class="level2">
-<h2 class="anchored" data-anchor-id="final-project">Final Project</h2>
-<p>This webpage will have the results of my final project for STAT 244-SC. I am analyzing the link between student debt and median earnings 1 and 5 years after graduation for biochemistry and biology majors according to the College Scorecard project.</p>
+<section id="project-checkpoint-3-new-methodologies" class="level1">
+<h1>Project Checkpoint 3: New Methodologies</h1>
+<ul>
+<li>Due date: Thursday, May 1st @ 11:59 pm (You may use a <a href="https://forms.gle/br6p6zY5ugi49LXV8">48 hour extension</a>)</li>
+</ul>
+<p>In this checkpoint, you’ll practice implementing the machine learning techniques you’ve been exposed to throughout this course.&nbsp;</p>
+<p>Use the ideas and techniques we’ve discussed in class to best answer the following questions. Do your best to answer in complete, thoughtful, and concise sentences. The more work you do here, the less work you have to do for your final paper. My intent is that 100% of the content in your paper and presentation comes from these project checkpoints. These checkpoints are graded based on (perceived) genuine effort rather than correctness.&nbsp;</p>
+<p>If you are working in a group, while your group will submit only <strong>one</strong> final paper, <strong>each person must submit an individual project checkpoint</strong> (even if the checkpoints are identical). I will provide feedback on one person’s project checkpoints per group.</p>
+<p>Create a Quarto file to answer the following questions. Do not answer simply using a Google Doc. You are required to do the section on Cross Validation (CV). You may then choose any of the following sections after that.</p>
+<section id="table-of-contents" class="level2">
+<h2 class="anchored" data-anchor-id="table-of-contents">Table of Contents</h2>
+<p>Cross Validation (CV) — Required</p>
+<p>Option: Variable Subset Selection</p>
+<p>Option: LASSO</p>
+<p>Option: Unsupervised Learning with K-Means Clustering</p>
 </section>
-<section id="basic-information" class="level2">
-<h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
-<p>Here are some figures that provide an introduction to the dataset I am analyzing.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>bio <span class="sc">%&gt;%</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Debt_median, <span class="at">y =</span> Earnings_median_5yr)) <span class="sc">+</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(<span class="at">x =</span> <span class="st">'Median Debt ($)'</span>, <span class="at">y =</span> <span class="st">'Median Earnings 5 Years After Graduation ($)'</span>) <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="STAT-244-SC_files/figure-html/echo- false-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>bio <span class="sc">%&gt;%</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Earnings_median_1yr, <span class="at">y =</span> Earnings_median_5yr)) <span class="sc">+</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(<span class="at">x =</span> <span class="st">'Median Earnings 1 Year After Graduation ($)'</span>, <span class="at">y =</span> <span class="st">'Median Earnings 5 Years After Graduation ($)'</span>) <span class="sc">+</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="STAT-244-SC_files/figure-html/echo- false-2.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+<section id="cross-validation-cv-required" class="level2">
+<h2 class="anchored" data-anchor-id="cross-validation-cv-required">Cross Validation (CV) — <strong>Required</strong></h2>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><p><a href="https://moodle.mtholyoke.edu/mod/assign/view.php?id=1098626">Lab 6: Intro to Model Evaluation</a></p></li>
+<li><p><a href="https://moodle.mtholyoke.edu/mod/assign/view.php?id=1101117">Lab 7: k-Fold Cross Validation (CV)</a></p></li>
+<li><p><a href="https://drive.google.com/file/d/1vuC24aYjC2CkOoVUDXd7O_8S_deGbf4H/view">Lab 7 Solutions</a></p></li>
+<li><p><a href="https://docs.google.com/presentation/d/1yCWxHnb59LpRELyWgy2Ir1AD6j7SOtx9kvqkMN6drEc/edit?usp=sharing">Slides-Intro-CV-March10</a></p></li>
+<li><p>Section 5.1 in <a href="https://moodle.mtholyoke.edu/mod/resource/view.php?id=1090837">ISLR</a></p></li>
+</ul>
+<ol type="1">
+<li><p><strong>Write a brief introduction to cross validation which includes relevant mathematical notation.<br>
+</strong>Cross validation is a method of training and testing statistical models for a dataset that does not come with a training data set. It is notated by the formula: E[Y|X] = β0 + β1X1+…+ βpXp, where Y is a random variable representing our outcome data, X is a random variable representing our input data, and E[Y|X] is the expected value of Y given input data X.<strong><br>
+</strong></p></li>
+<li><p><strong>What is the goal of cross-validation? (Hint: Think about over-fitting, along with <a href="https://moodle.mtholyoke.edu/mod/assign/view.php?id=1099679">social/ethical considerations</a>)&nbsp;<br>
+</strong>The goal of cross-validation is to avoid overfitting, which is when a model constructed from a data set is so specific to that data that it cannot process any new data in the manner intended. This can cause problems if the training dataset has some bias, as it will reinforce that bias.</p></li>
+<li><p><strong>What linear models are you considering based on your research question? Pick at least two models to compare.</strong></p>
+<p>I am considering the three models:</p>
+<p>E[Earnings_median_5yr | Debt_median] = β0+ β1(Debt_median)</p>
+<p>E[Earnings_median_5yr | Earnings_median_1yr - Debt_median] = β0 - β1(Debt_median) + β2(Earnings_median_1yr)</p>
+<p>E[Earnings_median_5yr | Earnings_median_1yr] = β0+ β1(Earnings_median_1yr)<strong><br>
+</strong></p></li>
+<li><p><strong>Explain how you divided your data into its test set and training set.<br>
+<br>
+</strong>I divided my data into its test set and training set using 10-Fold CV.<br>
+</p></li>
+<li><p><strong>State which error metric you are using (MAE or MSE) and give its formal mathematical definition. Why did you choose this error metric? What are the advantages/disadvantages of using it?<br>
+<br>
+I chose MAE because my dataset includes outliers, and MAE uses the difference between the number the model predicts and the actual value of the testing data set in order to calculate the mean error. The formal definition of MAE is</strong><img src="images/clipboard-1982362439.png" width="82" height="58"><br>
+</p></li>
+<li><p><strong>Implement k-fold cross validation for k = 10.</strong></p>
+<p>Done</p></li>
+<li><p><strong>Display evaluation metrics for your different models in a clean, organized way. This display should include both the estimated CV metric as well as its standard deviation.</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>10-Fold CV MAE</th>
+<th>SD</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>7.663614e+03</td>
+<td>231.69329447</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>7.802707e+03</td>
+<td>322.35471344</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>7.802707e+03</td>
+<td>264.87574093</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<!-- -->
+<ol start="8" type="1">
+<li><p><strong>Try different values of k (the tuning parameter). At minimum, try k = n - 1 (LOOCV), and k = 5. Which value of k has the smallest CV error?<br>
+<br>
+</strong>k=5 has the smallest error<strong><br>
+</strong></p></li>
+<li><p><strong>Select your final model based on which one has the smallest CV error.</strong></p></li>
+</ol>
+<p>Model 1 with k = 10 has the smallest CV error.<br>
+</p>
+</section>
+<section id="option-variable-subset-selection" class="level2">
+<h2 class="anchored" data-anchor-id="option-variable-subset-selection">Option: Variable Subset Selection</h2>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><p><a href="https://docs.google.com/presentation/d/1j4wvhcj5qzvc2Qp4lpfVUJSjRpLAIm13mMqVyWQH88s/edit?usp=sharing">Slides-Subset-Selection</a></p></li>
+<li><p><a href="https://moodle.mtholyoke.edu/mod/assign/view.php?id=1101596">Lab 8: Variable Subset Selection</a></p></li>
+<li><p><a href="https://drive.google.com/file/d/10PIjBfVQxfRkkJFQG70QUyl1_iIJg40o/view?usp=sharing">Lab 8 Solutions</a></p></li>
+<li><p>Section 6.1 in <a href="https://moodle.mtholyoke.edu/mod/resource/view.php?id=1090837">ISLR</a></p></li>
+</ul>
+<ol type="1">
+<li><p><strong>Identify at least p = 3 predictors for modeling the expected response E(Y) of one of your variables Y.</strong><br>
+<br>
+Predictors: Major, School Type, Earnings_Median_1yr, Debt<br>
+</p></li>
+<li><p><strong>State which error metric you are using (i.e., CV MAE or CV MSE and state the chosen k-value).</strong><br>
+<br>
+CVMAE with k=10<br>
+</p></li>
+<li><p><strong>Best subset selection</strong>: Only implement this if you have under 100 rows/observations in your data set. Otherwise, skip this! It will be too computationally expensive!</p>
+<p>I currently have 239 rows, so I skipped this.</p></li>
+<li><p><strong>Backward subset selection: Implement backward subset selection by starting with at least p = 3 predictors.</strong></p>
+<p>Done</p></li>
+<li><p><strong>We have to pick a value for our tuning parameter (the number of predictors). Plot your cross validated error as a function of the number of predictors, where each model has predictors chosen based on your backward subset selection.</strong></p></li>
+</ol>
+<p>Could not figure out how to do this but, my model narrowed down until both Earnings_median_1yr and Debt were left, but both had the same p-value (0). Would have to try another type of variable subse4t to narrow down further, or keep both.<br>
+</p>
+<ol start="6" type="1">
+<li><p><strong>Based on your plot, which model do you pick?<br>
+<br>
+</strong>Based on my plot, I should pick a model that uses both Earnings_median_1yr, and Debt.<strong><br>
+</strong></p></li>
+<li><p><strong>Why is backward subset selection a greedy algorithm? Answer in 1 - 3 sentences.<br>
+<br>
+</strong>Backward subset selection is a greedy algorithm because it takes out whichever variable changes the predicted value the most in each step.<br>
+</p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
