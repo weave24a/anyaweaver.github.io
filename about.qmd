@@ -18,4 +18,5 @@ knitr::include_graphics("Merlin Pymol.jpg")
 
 This is an image of two views of the merlin protein, made in Pymol. It is a protein produced by the NF2 gene and is responsible for many cellular functions.
 
-To contact me, please reach out via [LinkedIn](www.linkedin.com/in/anya-weaver-b10671201){.uri}.
+To contact me, please reach out via [LinkedIn](https://linkedin.com/in/anya-weaver-b10671201).
+
