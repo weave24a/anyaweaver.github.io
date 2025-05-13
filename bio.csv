@@ -1,330 +1,330 @@
-Major,Institution,School_type,Degree,Debt_median,Distance,Earnings_median_1yr,Earnings_median_5yr
-biology,Alabama A & M University,Public,Bachelor's Degree,46117,1,23306,40721
-biology,University of Alabama at Birmingham,Public,Bachelor's Degree,47250,1,25827,55561
-biology,Alabama State University,Public,Bachelor's Degree,67731,1,23957,46828
-biology,The University of Alabama,Public,Bachelor's Degree,68771,1,25063,61478
-biology,Auburn University,Public,Bachelor's Degree,80303,1,23818,78788
-biology,University of South Alabama,Public,Bachelor's Degree,50000,1,24634,59484
-biology,Tuskegee University,"Private, nonprofit",Bachelor's Degree,80431,1,22152,54154
-biology,Arizona State University Campus Immersion,Public,Bachelor's Degree,43956,1,28259,58703
-biochem+,Arizona State University Campus Immersion,Public,Bachelor's Degree,35605,1,31415,66602
-biology,University of Arizona,Public,Bachelor's Degree,59612,2,26893,60232
-biology,Grand Canyon University,"Private, for-profit",Bachelor's Degree,44118,1,27166,59483
-biology,Northern Arizona University,Public,Bachelor's Degree,48859,1,28362,56435
-biology,University of Arkansas,Public,Bachelor's Degree,53175,1,26673,62547
-biology,Biola University,"Private, nonprofit",Bachelor's Degree,98901,1,27443,58547
-biology,California Baptist University,"Private, nonprofit",Bachelor's Degree,76610,1,23631,69737
-biology,California Lutheran University,"Private, nonprofit",Bachelor's Degree,76868,1,26541,77378
-biology,California Polytechnic State University-San Luis Obispo,Public,Bachelor's Degree,70037,1,32589,73422
-biology,California State University-Sacramento,Public,Bachelor's Degree,32210,1,34796,67859
-biology,University of California-Berkeley,Public,Bachelor's Degree,56163,1,36294,76503
-biology,University of California-Davis,Public,Bachelor's Degree,41769,1,28791,66924
-biochem+,University of California-Davis,Public,Bachelor's Degree,30080,1,35570,87815
-biology,University of California-Irvine,Public,Bachelor's Degree,35526,1,20595,72132
-biology,University of California-Los Angeles,Public,Bachelor's Degree,42811,1,24167,75609
-biochem+,University of California-Los Angeles,Public,Bachelor's Degree,45865,1,30054,76967
-biology,University of California-Riverside,Public,Bachelor's Degree,39961,1,18850,61749
-biochem+,University of California-Riverside,Public,Bachelor's Degree,38203,1,20779,68378
-biology,University of California-San Diego,Public,Bachelor's Degree,40905,1,26086,69381
-biochem+,University of California-San Diego,Public,Bachelor's Degree,43859,1,33915,76922
-biology,University of California-Santa Barbara,Public,Bachelor's Degree,41120,1,30350,76068
-biology,University of California-Santa Cruz,Public,Bachelor's Degree,46100,1,29134,70452
-biology,Chapman University,"Private, nonprofit",Bachelor's Degree,80227,1,19549,70913
-biology,Dominican University of California,"Private, nonprofit",Bachelor's Degree,108746,1,36982,91956
-biology,California State Polytechnic University-Humboldt,Public,Bachelor's Degree,40293,1,25491,50531
-biology,Loyola Marymount University,"Private, nonprofit",Bachelor's Degree,90887,1,25477,81547
-biology,Point Loma Nazarene University,"Private, nonprofit",Bachelor's Degree,48300,1,28314,50216
-biology,University of Redlands,"Private, nonprofit",Bachelor's Degree,78065,1,34248,72217
-biology,San Diego State University,Public,Bachelor's Degree,42894,1,33006,70169
-biology,University of San Diego,"Private, nonprofit",Bachelor's Degree,98261,1,20389,68950
-biology,University of San Francisco,"Private, nonprofit",Bachelor's Degree,81125,1,33560,71657
-biology,Sonoma State University,Public,Bachelor's Degree,48583,1,28787,73611
-biology,University of Southern California,"Private, nonprofit",Bachelor's Degree,41889,1,24988,77275
-biology,University of Colorado Denver/Anschutz Medical Campus,Public,Bachelor's Degree,46982,1,31856,65854
-biology,University of Colorado Colorado Springs,Public,Bachelor's Degree,44440,1,31761,51834
-biology,Colorado State University-Fort Collins,Public,Bachelor's Degree,63721,1,28687,58902
-biochem+,Colorado State University-Fort Collins,Public,Bachelor's Degree,62512,1,29864,62741
-biology,University of Denver,"Private, nonprofit",Bachelor's Degree,68622,1,28793,60562
-biology,University of Northern Colorado,Public,Bachelor's Degree,65223,2,31857,47179
-biology,Central Connecticut State University,Public,Bachelor's Degree,32796,1,33407,60282
-biology,University of Connecticut,Public,Bachelor's Degree,67211,1,29040,71208
-biology,University of Hartford,"Private, nonprofit",Bachelor's Degree,57000,1,27955,53575
-biology,University of New Haven,"Private, nonprofit",Bachelor's Degree,95737,1,37129,66604
-biology,Quinnipiac University,"Private, nonprofit",Bachelor's Degree,141382,1,25504,79316
-biology,Sacred Heart University,"Private, nonprofit",Bachelor's Degree,102067,1,25073,79093
-biology,Southern Connecticut State University,Public,Bachelor's Degree,40491,1,32410,61609
-biology,Delaware State University,Public,Bachelor's Degree,70428,1,28314,51021
-biology,University of Delaware,Public,Bachelor's Degree,65114,1,23403,78770
-biology,George Washington University,"Private, nonprofit",Bachelor's Degree,76170,1,28669,66734
-biology,Howard University,"Private, nonprofit",Bachelor's Degree,112182,1,24174,59298
-biology,University of Central Florida,Public,Bachelor's Degree,39104,1,22970,55579
-biology,Eckerd College,"Private, nonprofit",Bachelor's Degree,103937,1,21909,33830
-biology,Florida Agricultural and Mechanical University,Public,Bachelor's Degree,47768,1,22780,55361
-biology,Florida Atlantic University,Public,Bachelor's Degree,28504,1,26231,54209
-biology,Florida State University,Public,Bachelor's Degree,37221,1,22171,56744
-biology,University of Florida,Public,Bachelor's Degree,33212,3,19456,66170
-biology,University of Miami,"Private, nonprofit",Bachelor's Degree,76708,1,21259,64693
-biology,Nova Southeastern University,"Private, nonprofit",Bachelor's Degree,59899,1,22635,65902
-biology,University of South Florida,Public,Bachelor's Degree,32183,1,24063,59949
-biology,Albany State University,Public,Bachelor's Degree,45911,1,26026,47427
-biology,Clark Atlanta University,"Private, nonprofit",Bachelor's Degree,101138,1,23727,46164
-biology,Emory University,"Private, nonprofit",Bachelor's Degree,69461,1,21497,67087
-biology,Fort Valley State University,Public,Bachelor's Degree,39446,1,22919,45337
-biology,Georgia Southern University,Public,Bachelor's Degree,42084,1,23953,50095
-biology,Georgia State University,Public,Bachelor's Degree,36330,1,22288,53171
-biology,University of Georgia,Public,Bachelor's Degree,43000,1,21614,64387
-biochem+,University of Georgia,Public,Bachelor's Degree,48288,1,21735,60787
-biology,Mercer University,"Private, nonprofit",Bachelor's Degree,55823,1,23164,67149
-biology,Savannah State University,Public,Bachelor's Degree,48210,1,27243,51020
-biology,Spelman College,"Private, nonprofit",Bachelor's Degree,135852,1,23318,51873
-biology,Valdosta State University,Public,Bachelor's Degree,44702,1,21042,54815
-biology,University of West Georgia,Public,Bachelor's Degree,41100,1,24982,51526
-biology,University of Hawaii at Manoa,Public,Bachelor's Degree,62827,1,24614,54633
-biology,Augustana College,"Private, nonprofit",Bachelor's Degree,55143,1,25342,63514
-biology,DePaul University,"Private, nonprofit",Bachelor's Degree,95100,1,25467,62046
-biology,University of Illinois Chicago,Public,Bachelor's Degree,43612,1,23743,66924
-biology,Illinois State University,Public,Bachelor's Degree,49723,1,31827,53848
-biology,Loyola University Chicago,"Private, nonprofit",Bachelor's Degree,78886,1,22900,67114
-biochem+,Loyola University Chicago,"Private, nonprofit",Bachelor's Degree,88124,1,29376,65443
-biology,Northern Illinois University,Public,Bachelor's Degree,37000,1,35021,63964
-biology,Roosevelt University,"Private, nonprofit",Bachelor's Degree,69368,1,26314,63705
-biology,Southern Illinois University-Carbondale,Public,Bachelor's Degree,39925,1,28907,58410
-biology,Southern Illinois University-Edwardsville,Public,Bachelor's Degree,47705,1,28532,61744
-biology,Western Illinois University,Public,Bachelor's Degree,73111,1,29129,50891
-biology,Ball State University,Public,Bachelor's Degree,50054,1,29021,47824
-biology,Indiana University-Indianapolis,Public,Bachelor's Degree,35628,1,33141,59858
-biology,University of Indianapolis,"Private, nonprofit",Bachelor's Degree,44166,1,31667,62600
-biology,Indiana University-Bloomington,Public,Bachelor's Degree,42956,1,24930,65677
-biology,Iowa State University,Public,Bachelor's Degree,47324,1,27611,58585
-biology,University of Iowa,Public,Bachelor's Degree,46482,1,30684,60631
-biology,University of Northern Iowa,Public,Bachelor's Degree,40960,1,32840,59773
-biology,Fort Hays State University,Public,Bachelor's Degree,33420,1,33603,53646
-biology,University of Kansas,Public,Bachelor's Degree,47529,1,30471,60261
-biology,Kansas State University,Public,Bachelor's Degree,35900,1,27147,65318
-biology,University of Kentucky,Public,Bachelor's Degree,60418,1,21456,63199
-biology,Dillard University,"Private, nonprofit",Bachelor's Degree,51560,1,23188,48297
-biology,Grambling State University,Public,Bachelor's Degree,55500,1,23266,45785
-biology,Louisiana State University and Agricultural & Mechanical College,Public,Bachelor's Degree,41918,1,18374,63433
-biology,Louisiana Tech University,Public,Bachelor's Degree,39969,1,18720,47164
-biology,Northwestern State University of Louisiana,Public,Bachelor's Degree,44733,1,21223,47666
-biology,Xavier University of Louisiana,"Private, nonprofit",Bachelor's Degree,60761,1,17837,49542
-biology,University of New England,"Private, nonprofit",Bachelor's Degree,82603,1,29691,70032
-biology,Loyola University Maryland,"Private, nonprofit",Bachelor's Degree,82520,1,31172,95658
-biology,University of Maryland-Baltimore County,Public,Bachelor's Degree,45502,1,23622,65647
-biology,University of Maryland-College Park,Public,Bachelor's Degree,52688,1,24993,72024
-biology,Morgan State University,Public,Bachelor's Degree,62640,1,24942,49750
-biology,Salisbury University,Public,Bachelor's Degree,59738,1,32871,58765
-biology,Towson University,Public,Bachelor's Degree,42259,1,31534,65900
-biology,Stevenson University,"Private, nonprofit",Bachelor's Degree,74673,1,31615,61979
-biology,Washington College,"Private, nonprofit",Bachelor's Degree,85134,1,28655,68950
-biology,Boston College,"Private, nonprofit",Bachelor's Degree,74959,1,38609,80290
-biology,Boston University,"Private, nonprofit",Bachelor's Degree,118813,1,30006,67946
-biochem+,Boston University,"Private, nonprofit",Bachelor's Degree,80000,1,38708,75390
-biology,Brandeis University,"Private, nonprofit",Bachelor's Degree,64438,1,33914,66306
-biology,Emmanuel College,"Private, nonprofit",Bachelor's Degree,64643,1,37510,83922
-biology,University of Massachusetts-Lowell,Public,Bachelor's Degree,46203,1,39628,77274
-biology,University of Massachusetts-Amherst,Public,Bachelor's Degree,46250,1,31324,68103
-biology,Northeastern University,"Private, nonprofit",Bachelor's Degree,68059,1,43916,97536
-biology,Salem State University,Public,Bachelor's Degree,48756,1,37411,73807
-biology,Suffolk University,"Private, nonprofit",Bachelor's Degree,64950,1,40667,53943
-biology,Central Michigan University,Public,Bachelor's Degree,59807,1,24895,67750
-biology,University of Detroit Mercy,"Private, nonprofit",Bachelor's Degree,41626,1,21838,103618
-biology,Grand Valley State University,Public,Bachelor's Degree,47506,1,31914,52780
-biochem+,University of Michigan-Ann Arbor,Public,Bachelor's Degree,40413,1,18827,65675
-biology,Michigan State University,Public,Bachelor's Degree,75548,1,23885,66211
-biochem+,Michigan State University,Public,Bachelor's Degree,82741,1,36979,70734
-biology,Northern Michigan University,Public,Bachelor's Degree,48624,1,24325,54276
-biology,Oakland University,Public,Bachelor's Degree,42115,1,25099,50615
-biology,Wayne State University,Public,Bachelor's Degree,31839,1,23098,63808
-biology,Western Michigan University,Public,Bachelor's Degree,52437,2,30671,60159
-biology,University of Minnesota-Twin Cities,Public,Bachelor's Degree,45701,1,30340,70348
-biochem+,University of Minnesota-Twin Cities,Public,Bachelor's Degree,41427,1,30316,68953
-biology,University of Minnesota-Duluth,Public,Bachelor's Degree,35766,1,28721,59593
-biology,Alcorn State University,Public,Bachelor's Degree,38358,1,21945,45184
-biology,Jackson State University,Public,Bachelor's Degree,48006,2,23341,45403
-biology,University of Mississippi,Public,Bachelor's Degree,48252,1,22078,65624
-biology,Mississippi State University,Public,Bachelor's Degree,38149,2,22403,65609
-biochem+,Mississippi State University,Public,Bachelor's Degree,43819,1,21888,56867
-biology,University of Missouri-Columbia,Public,Bachelor's Degree,63548,1,24544,65628
-biology,University of Missouri-Kansas City,Public,Bachelor's Degree,34335,1,31512,70410
-biology,Missouri University of Science and Technology,Public,Bachelor's Degree,63250,1,30701,58127
-biology,Northwest Missouri State University,Public,Bachelor's Degree,55895,1,26708,54616
-biology,Saint Louis University,"Private, nonprofit",Bachelor's Degree,57144,1,19366,64951
-biology,Southeast Missouri State University,Public,Bachelor's Degree,31990,1,25035,55185
-biology,Missouri State University-Springfield,Public,Bachelor's Degree,30391,1,27017,50534
-biology,Montana State University,Public,Bachelor's Degree,54802,1,22546,44208
-biology,University of Nebraska at Omaha,Public,Bachelor's Degree,27817,1,29450,50130
-biology,University of Nebraska-Lincoln,Public,Bachelor's Degree,52440,1,27263,62754
-biochem+,University of Nebraska-Lincoln,Public,Bachelor's Degree,45659,1,29705,65264
-biology,University of Nevada-Las Vegas,Public,Bachelor's Degree,31970,1,21244,65805
-biology,University of Nevada-Reno,Public,Bachelor's Degree,50761,1,28742,58918
-biology,University of New Hampshire-Main Campus,Public,Bachelor's Degree,53110,1,35977,73435
-biology,University of New Hampshire at Manchester,Public,Bachelor's Degree,53110,1,35977,73435
-biology,Fairleigh Dickinson University-Metropolitan Campus,"Private, nonprofit",Bachelor's Degree,62451,1,16972,66783
-biology,Fairleigh Dickinson University-Florham Campus,"Private, nonprofit",Bachelor's Degree,62451,1,16972,66783
-biology,Rowan University,Public,Bachelor's Degree,44257,1,29579,67138
-biology,Kean University,Public,Bachelor's Degree,48353,2,34115,66502
-biology,Monmouth University,"Private, nonprofit",Bachelor's Degree,99272,1,15432,72096
-biology,Montclair State University,Public,Bachelor's Degree,51221,1,31870,63209
-biology,Rutgers University-Camden,Public,Bachelor's Degree,49633,1,26120,72842
-biology,Rutgers University-New Brunswick,Public,Bachelor's Degree,49633,1,26120,72842
-biology,Rutgers University-Newark,Public,Bachelor's Degree,49633,1,26120,72842
-biology,Saint Peter's University,"Private, nonprofit",Bachelor's Degree,39556,1,26644,69610
-biology,Seton Hall University,"Private, nonprofit",Bachelor's Degree,71083,1,20650,90211
-biology,Stockton University,Public,Bachelor's Degree,54875,1,23379,62369
-biology,Cornell University,"Private, nonprofit",Bachelor's Degree,68010,1,29066,69997
-biology,Hartwick College,"Private, nonprofit",Bachelor's Degree,83620,1,30695,59512
-biology,Le Moyne College,"Private, nonprofit",Bachelor's Degree,63973,1,26755,69768
-biology,Long Island University,"Private, nonprofit",Bachelor's Degree,100832,1,20417,80268
-biology,Manhattan College,"Private, nonprofit",Bachelor's Degree,77052,1,28784,63480
-biology,Marist College,"Private, nonprofit",Bachelor's Degree,70286,1,22690,80780
-biology,New York University,"Private, nonprofit",Bachelor's Degree,98344,1,20981,68813
-biochem+,New York University,"Private, nonprofit",Bachelor's Degree,72541,1,31324,76993
-biology,New York Institute of Technology,"Private, nonprofit",Bachelor's Degree,52663,1,17342,77653
-biology,Pace University,"Private, nonprofit",Bachelor's Degree,91888,1,29636,66071
-biology,Rochester Institute of Technology,"Private, nonprofit",Bachelor's Degree,59154,1,26125,63011
-biology,University of Rochester,"Private, nonprofit",Bachelor's Degree,62794,1,28825,79479
-biology,St. John Fisher University,"Private, nonprofit",Bachelor's Degree,78729,1,25951,66181
-biology,St. John's University-New York,"Private, nonprofit",Bachelor's Degree,88756,1,20948,63121
-biology,University at Albany,Public,Bachelor's Degree,38678,1,28112,60820
-biology,Binghamton University,Public,Bachelor's Degree,47302,1,22816,68571
-biology,University at Buffalo,Public,Bachelor's Degree,40531,1,23366,68513
-biology,Stony Brook University,Public,Bachelor's Degree,38052,1,24862,68096
-biology,SUNY College at Geneseo,Public,Bachelor's Degree,38210,1,22760,72710
-biology,SUNY Oneonta,Public,Bachelor's Degree,37035,1,27099,64031
-biology,State University of New York at Oswego,Public,Bachelor's Degree,44453,1,31543,66561
-biology,SUNY College at Potsdam,Public,Bachelor's Degree,39376,1,24842,59284
-biology,Syracuse University,"Private, nonprofit",Bachelor's Degree,67615,1,26042,71471
-biology,Appalachian State University,Public,Bachelor's Degree,41979,1,27318,67233
-biology,Campbell University,"Private, nonprofit",Bachelor's Degree,81206,1,23398,58299
-biology,Duke University,"Private, nonprofit",Bachelor's Degree,63555,1,20909,70605
-biology,East Carolina University,Public,Bachelor's Degree,52236,1,32720,54515
-biology,Johnson C Smith University,"Private, nonprofit",Bachelor's Degree,49827,1,22878,41716
-biology,Meredith College,"Private, nonprofit",Bachelor's Degree,66088,1,33114,67687
-biology,North Carolina A & T State University,Public,Bachelor's Degree,53842,1,26673,48308
-biology,University of North Carolina at Chapel Hill,Public,Bachelor's Degree,39010,1,24522,64430
-biology,University of North Carolina at Charlotte,Public,Bachelor's Degree,37063,1,28310,59911
-biology,University of North Carolina at Greensboro,Public,Bachelor's Degree,40407,1,31393,47546
-biology,North Carolina Central University,Public,Bachelor's Degree,41175,1,28377,53779
-biology,North Carolina State University at Raleigh,Public,Bachelor's Degree,52800,1,27992,68124
-biology,University of North Carolina Wilmington,Public,Bachelor's Degree,51767,1,31283,58157
-biology,University of North Carolina at Pembroke,Public,Bachelor's Degree,44184,1,27360,45619
-biology,Wake Forest University,"Private, nonprofit",Bachelor's Degree,80079,1,24506,66200
-biology,Wingate University,"Private, nonprofit",Bachelor's Degree,63431,1,31058,55688
-biology,Winston-Salem State University,Public,Bachelor's Degree,41292,1,32123,46686
-biology,Western Carolina University,Public,Bachelor's Degree,47630,1,24606,55306
-biology,University of Akron Main Campus,Public,Bachelor's Degree,40316,1,23298,61961
-biology,Bowling Green State University-Main Campus,Public,Bachelor's Degree,53120,1,27176,48161
-biology,Case Western Reserve University,"Private, nonprofit",Bachelor's Degree,94154,1,20114,63457
-biology,University of Cincinnati-Main Campus,Public,Bachelor's Degree,51250,1,32063,64065
-biology,University of Dayton,"Private, nonprofit",Bachelor's Degree,56125,1,23411,64526
-biology,John Carroll University,"Private, nonprofit",Bachelor's Degree,53906,1,25822,64836
-biology,Kent State University at Stark,Public,Bachelor's Degree,40326,1,26413,57546
-biology,Kent State University at Kent,Public,Bachelor's Degree,40326,1,26413,57546
-biology,Miami University-Oxford,Public,Bachelor's Degree,68507,1,29985,69675
-biology,Ohio State University-Lima Campus,Public,Bachelor's Degree,59535,1,27470,67156
-biology,Ohio State University-Marion Campus,Public,Bachelor's Degree,59535,1,27470,67156
-biology,Ohio State University-Main Campus,Public,Bachelor's Degree,59535,1,27470,67156
-biology,University of Toledo,Public,Bachelor's Degree,45948,1,18220,66410
-biology,Xavier University,"Private, nonprofit",Bachelor's Degree,77630,1,25531,64340
-biology,Youngstown State University,Public,Bachelor's Degree,33661,1,24769,62060
-biology,Oregon State University,Public,Bachelor's Degree,46859,1,25537,54017
-biology,University of Oregon,Public,Bachelor's Degree,92397,1,25938,59129
-biology,Pacific University,"Private, nonprofit",Bachelor's Degree,82130,1,26792,61102
-biology,University of Portland,"Private, nonprofit",Bachelor's Degree,85531,1,27707,53076
-biology,Allegheny College,"Private, nonprofit",Bachelor's Degree,67772,1,26693,68667
-biology,Arcadia University,"Private, nonprofit",Bachelor's Degree,61000,1,25274,72595
-biology,Drexel University,"Private, nonprofit",Bachelor's Degree,86198,1,29532,74257
-biology,Duquesne University,"Private, nonprofit",Bachelor's Degree,94704,1,22599,72885
-biology,Indiana University of Pennsylvania-Main Campus,Public,Bachelor's Degree,53000,1,27209,56353
-biology,Kutztown University of Pennsylvania,Public,Bachelor's Degree,44233,1,37217,63677
-biology,Millersville University of Pennsylvania,Public,Bachelor's Degree,63100,1,32733,55524
-biology,University of Pittsburgh-Bradford,Public,Bachelor's Degree,68250,1,24508,61794
-biology,University of Pittsburgh-Greensburg,Public,Bachelor's Degree,68250,1,24508,61794
-biology,University of Pittsburgh-Johnstown,Public,Bachelor's Degree,68250,1,24508,61794
-biology,University of Pittsburgh-Pittsburgh Campus,Public,Bachelor's Degree,68250,1,24508,61794
-biology,University of Scranton,"Private, nonprofit",Bachelor's Degree,78000,1,20345,70210
-biology,Shippensburg University of Pennsylvania,Public,Bachelor's Degree,68286,1,32226,64132
-biology,Susquehanna University,"Private, nonprofit",Bachelor's Degree,74695,1,24158,68030
-biology,Temple University,Public,Bachelor's Degree,67495,1,30888,73979
-biology,Ursinus College,"Private, nonprofit",Bachelor's Degree,74248,1,33137,69216
-biology,York College of Pennsylvania,"Private, nonprofit",Bachelor's Degree,43893,1,33386,66359
-biology,Brown University,"Private, nonprofit",Bachelor's Degree,73460,1,29535,65144
-biology,University of Rhode Island,Public,Bachelor's Degree,47518,1,36120,74984
-biology,College of Charleston,Public,Bachelor's Degree,53493,1,27218,60971
-biology,Claflin University,"Private, nonprofit",Bachelor's Degree,41218,1,19551,41239
-biology,Clemson University,Public,Bachelor's Degree,55273,1,21728,65919
-biology,Francis Marion University,Public,Bachelor's Degree,41734,1,23804,46343
-biology,University of South Carolina-Columbia,Public,Bachelor's Degree,62492,1,24955,60846
-biology,Coastal Carolina University,Public,Bachelor's Degree,63635,1,26355,49256
-biology,South Carolina State University,Public,Bachelor's Degree,75980,1,20692,38985
-biology,Winthrop University,Public,Bachelor's Degree,49898,1,26484,48396
-biology,University of South Dakota,Public,Bachelor's Degree,33843,1,24185,64695
-biology,Middle Tennessee State University,Public,Bachelor's Degree,26500,1,30711,52665
-biology,The University of Tennessee-Chattanooga,Public,Bachelor's Degree,33840,1,25103,52212
-biology,The University of Tennessee-Knoxville,Public,Bachelor's Degree,40588,1,22206,58414
-biology,Baylor University,"Private, nonprofit",Bachelor's Degree,74965,1,20866,63803
-biochem+,Baylor University,"Private, nonprofit",Bachelor's Degree,95054,1,28811,67262
-biology,Texas A & M University-Corpus Christi,Public,Bachelor's Degree,52402,1,27553,54313
-biology,University of Houston,Public,Bachelor's Degree,35282,1,25573,62349
-biology,University of the Incarnate Word,"Private, nonprofit",Bachelor's Degree,47863,1,24427,51820
-biology,University of North Texas,Public,Bachelor's Degree,50700,1,29298,55209
-biology,The University of Texas Rio Grande Valley,Public,Bachelor's Degree,17051,1,23287,55383
-biology,Prairie View A & M University,Public,Bachelor's Degree,46668,1,26385,48711
-biology,Sam Houston State University,Public,Bachelor's Degree,43258,1,32198,53949
-biology,Southern Methodist University,"Private, nonprofit",Bachelor's Degree,67205,1,34322,59316
-biology,Stephen F Austin State University,Public,Bachelor's Degree,42977,1,28351,42095
-biology,Texas State University,Public,Bachelor's Degree,47271,1,32646,53861
-biology,Texas A & M University-Kingsville,Public,Bachelor's Degree,38562,1,23337,54175
-biology,Texas A & M University-College Station,Public,Bachelor's Degree,49073,1,26047,64611
-biology,The University of Texas at Austin,Public,Bachelor's Degree,49208,1,29918,65785
-biochem+,The University of Texas at Austin,Public,Bachelor's Degree,39454,1,29853,73667
-biology,The University of Texas at El Paso,Public,Bachelor's Degree,26388,1,21716,51785
-biology,Texas Christian University,"Private, nonprofit",Bachelor's Degree,89273,1,24952,63409
-biology,The University of Texas at San Antonio,Public,Bachelor's Degree,28667,1,27802,55482
-biology,Texas Southern University,Public,Bachelor's Degree,46528,1,29030,44374
-biology,Texas Tech University,Public,Bachelor's Degree,42939,1,24862,55979
-biology,University of Vermont,Public,Bachelor's Degree,77877,1,32201,60654
-biology,Christopher Newport University,Public,Bachelor's Degree,71475,1,27901,59142
-biology,George Mason University,Public,Bachelor's Degree,44369,1,29849,68233
-biology,Hampton University,"Private, nonprofit",Bachelor's Degree,102236,1,22829,51602
-biology,James Madison University,Public,Bachelor's Degree,59064,1,27637,60841
-biology,Old Dominion University,Public,Bachelor's Degree,57653,1,28135,53794
-biology,Radford University,Public,Bachelor's Degree,43011,1,28755,56032
-biology,Randolph-Macon College,"Private, nonprofit",Bachelor's Degree,51543,1,36402,62791
-biology,Virginia Polytechnic Institute and State University,Public,Bachelor's Degree,59711,1,22263,63097
-biochem+,Virginia Polytechnic Institute and State University,Public,Bachelor's Degree,56961,1,31684,64877
-biology,Virginia Commonwealth University,Public,Bachelor's Degree,38734,1,24666,62092
-biology,University of Virginia-Main Campus,Public,Bachelor's Degree,63797,1,23465,67974
-biology,Virginia Union University,"Private, nonprofit",Bachelor's Degree,71854,1,26388,43899
-biology,Central Washington University,Public,Bachelor's Degree,49120,1,28926,51199
-biology,Gonzaga University,"Private, nonprofit",Bachelor's Degree,101619,1,26151,63788
-biology,Washington State University,Public,Bachelor's Degree,51143,2,29289,63464
-biology,University of Washington-Seattle Campus,Public,Bachelor's Degree,37782,1,32362,69087
-biochem+,University of Washington-Seattle Campus,Public,Bachelor's Degree,46048,1,28824,72792
-biology,West Virginia University Institute of Technology,Public,Bachelor's Degree,56778,1,26403,57866
-biology,West Virginia University,Public,Bachelor's Degree,56778,1,26403,57866
-biology,Marquette University,"Private, nonprofit",Bachelor's Degree,76118,1,23625,78304
-biology,University of Wisconsin-Whitewater,Public,Bachelor's Degree,47594,1,33307,56815
-biology,University of Wisconsin-La Crosse,Public,Bachelor's Degree,42497,1,32649,69335
-biology,University of Wisconsin-Madison,Public,Bachelor's Degree,58024,1,30913,68812
-biology,University of Wisconsin-Milwaukee,Public,Bachelor's Degree,42000,1,30067,56061
-biology,Purdue University-Main Campus,Public,Bachelor's Degree,47202,1,31579,77863
-biology,University of Washington-Bothell Campus,Public,Bachelor's Degree,37782,1,32362,69087
-biochem+,University of Washington-Bothell Campus,Public,Bachelor's Degree,46048,1,28824,72792
-biology,University of Washington-Tacoma Campus,Public,Bachelor's Degree,37782,1,32362,69087
-biology,California State University-Monterey Bay,Public,Bachelor's Degree,43500,1,31700,45572
-biology,University of Connecticut-Waterbury Campus,Public,Bachelor's Degree,67211,1,29040,71208
-biology,University of Connecticut-Avery Point,Public,Bachelor's Degree,67211,1,29040,71208
-biology,University of Connecticut-Stamford,Public,Bachelor's Degree,67211,1,29040,71208
-biology,Oregon State University-Cascades Campus,Public,Bachelor's Degree,46859,1,25537,54017
-biology,California State University-Channel Islands,Public,Bachelor's Degree,50565,1,33204,69162
-biology,University of California-Merced,Public,Bachelor's Degree,33000,1,29685,67342
-biology,University of Connecticut-Hartford Campus,Public,Bachelor's Degree,67211,1,29040,71208
-biology,Northeastern University Professional Programs,"Private, nonprofit",Bachelor's Degree,68059,1,43916,97536
-biology,Arizona State University Digital Immersion,Public,Bachelor's Degree,43956,3,28259,58703
-biochem+,Arizona State University Digital Immersion,Public,Bachelor's Degree,35605,3,31415,66602
-biology,University of Florida-Online,Public,Bachelor's Degree,33212,3,19456,66170
-biology,Kennesaw State University,Public,Bachelor's Degree,46890,1,30842,56720
-biology,The Pennsylvania State University,Public,Bachelor's Degree,73090,1,28620,68771
-biochem+,The Pennsylvania State University,Public,Bachelor's Degree,77750,1,30110,66816
+Major,Institution,School_type,Debt_median,Earnings_median_1yr,Earnings_median_5yr
+biology,Alabama A & M University,Public,46117,23306,40721
+biology,University of Alabama at Birmingham,Public,47250,25827,55561
+biology,Alabama State University,Public,67731,23957,46828
+biology,The University of Alabama,Public,68771,25063,61478
+biology,Auburn University,Public,80303,23818,78788
+biology,University of South Alabama,Public,50000,24634,59484
+biology,Tuskegee University,"Private, nonprofit",80431,22152,54154
+biology,Arizona State University Campus Immersion,Public,43956,28259,58703
+biochem+,Arizona State University Campus Immersion,Public,35605,31415,66602
+biology,University of Arizona,Public,59612,26893,60232
+biology,Grand Canyon University,"Private, for-profit",44118,27166,59483
+biology,Northern Arizona University,Public,48859,28362,56435
+biology,University of Arkansas,Public,53175,26673,62547
+biology,Biola University,"Private, nonprofit",98901,27443,58547
+biology,California Baptist University,"Private, nonprofit",76610,23631,69737
+biology,California Lutheran University,"Private, nonprofit",76868,26541,77378
+biology,California Polytechnic State University-San Luis Obispo,Public,70037,32589,73422
+biology,California State University-Sacramento,Public,32210,34796,67859
+biology,University of California-Berkeley,Public,56163,36294,76503
+biology,University of California-Davis,Public,41769,28791,66924
+biochem+,University of California-Davis,Public,30080,35570,87815
+biology,University of California-Irvine,Public,35526,20595,72132
+biology,University of California-Los Angeles,Public,42811,24167,75609
+biochem+,University of California-Los Angeles,Public,45865,30054,76967
+biology,University of California-Riverside,Public,39961,18850,61749
+biochem+,University of California-Riverside,Public,38203,20779,68378
+biology,University of California-San Diego,Public,40905,26086,69381
+biochem+,University of California-San Diego,Public,43859,33915,76922
+biology,University of California-Santa Barbara,Public,41120,30350,76068
+biology,University of California-Santa Cruz,Public,46100,29134,70452
+biology,Chapman University,"Private, nonprofit",80227,19549,70913
+biology,Dominican University of California,"Private, nonprofit",108746,36982,91956
+biology,California State Polytechnic University-Humboldt,Public,40293,25491,50531
+biology,Loyola Marymount University,"Private, nonprofit",90887,25477,81547
+biology,Point Loma Nazarene University,"Private, nonprofit",48300,28314,50216
+biology,University of Redlands,"Private, nonprofit",78065,34248,72217
+biology,San Diego State University,Public,42894,33006,70169
+biology,University of San Diego,"Private, nonprofit",98261,20389,68950
+biology,University of San Francisco,"Private, nonprofit",81125,33560,71657
+biology,Sonoma State University,Public,48583,28787,73611
+biology,University of Southern California,"Private, nonprofit",41889,24988,77275
+biology,University of Colorado Denver/Anschutz Medical Campus,Public,46982,31856,65854
+biology,University of Colorado Colorado Springs,Public,44440,31761,51834
+biology,Colorado State University-Fort Collins,Public,63721,28687,58902
+biochem+,Colorado State University-Fort Collins,Public,62512,29864,62741
+biology,University of Denver,"Private, nonprofit",68622,28793,60562
+biology,University of Northern Colorado,Public,65223,31857,47179
+biology,Central Connecticut State University,Public,32796,33407,60282
+biology,University of Connecticut,Public,67211,29040,71208
+biology,University of Hartford,"Private, nonprofit",57000,27955,53575
+biology,University of New Haven,"Private, nonprofit",95737,37129,66604
+biology,Quinnipiac University,"Private, nonprofit",141382,25504,79316
+biology,Sacred Heart University,"Private, nonprofit",102067,25073,79093
+biology,Southern Connecticut State University,Public,40491,32410,61609
+biology,Delaware State University,Public,70428,28314,51021
+biology,University of Delaware,Public,65114,23403,78770
+biology,George Washington University,"Private, nonprofit",76170,28669,66734
+biology,Howard University,"Private, nonprofit",112182,24174,59298
+biology,University of Central Florida,Public,39104,22970,55579
+biology,Eckerd College,"Private, nonprofit",103937,21909,33830
+biology,Florida Agricultural and Mechanical University,Public,47768,22780,55361
+biology,Florida Atlantic University,Public,28504,26231,54209
+biology,Florida State University,Public,37221,22171,56744
+biology,University of Florida,Public,33212,19456,66170
+biology,University of Miami,"Private, nonprofit",76708,21259,64693
+biology,Nova Southeastern University,"Private, nonprofit",59899,22635,65902
+biology,University of South Florida,Public,32183,24063,59949
+biology,Albany State University,Public,45911,26026,47427
+biology,Clark Atlanta University,"Private, nonprofit",101138,23727,46164
+biology,Emory University,"Private, nonprofit",69461,21497,67087
+biology,Fort Valley State University,Public,39446,22919,45337
+biology,Georgia Southern University,Public,42084,23953,50095
+biology,Georgia State University,Public,36330,22288,53171
+biology,University of Georgia,Public,43000,21614,64387
+biochem+,University of Georgia,Public,48288,21735,60787
+biology,Mercer University,"Private, nonprofit",55823,23164,67149
+biology,Savannah State University,Public,48210,27243,51020
+biology,Spelman College,"Private, nonprofit",135852,23318,51873
+biology,Valdosta State University,Public,44702,21042,54815
+biology,University of West Georgia,Public,41100,24982,51526
+biology,University of Hawaii at Manoa,Public,62827,24614,54633
+biology,Augustana College,"Private, nonprofit",55143,25342,63514
+biology,DePaul University,"Private, nonprofit",95100,25467,62046
+biology,University of Illinois Chicago,Public,43612,23743,66924
+biology,Illinois State University,Public,49723,31827,53848
+biology,Loyola University Chicago,"Private, nonprofit",78886,22900,67114
+biochem+,Loyola University Chicago,"Private, nonprofit",88124,29376,65443
+biology,Northern Illinois University,Public,37000,35021,63964
+biology,Roosevelt University,"Private, nonprofit",69368,26314,63705
+biology,Southern Illinois University-Carbondale,Public,39925,28907,58410
+biology,Southern Illinois University-Edwardsville,Public,47705,28532,61744
+biology,Western Illinois University,Public,73111,29129,50891
+biology,Ball State University,Public,50054,29021,47824
+biology,Indiana University-Indianapolis,Public,35628,33141,59858
+biology,University of Indianapolis,"Private, nonprofit",44166,31667,62600
+biology,Indiana University-Bloomington,Public,42956,24930,65677
+biology,Iowa State University,Public,47324,27611,58585
+biology,University of Iowa,Public,46482,30684,60631
+biology,University of Northern Iowa,Public,40960,32840,59773
+biology,Fort Hays State University,Public,33420,33603,53646
+biology,University of Kansas,Public,47529,30471,60261
+biology,Kansas State University,Public,35900,27147,65318
+biology,University of Kentucky,Public,60418,21456,63199
+biology,Dillard University,"Private, nonprofit",51560,23188,48297
+biology,Grambling State University,Public,55500,23266,45785
+biology,Louisiana State University and Agricultural & Mechanical College,Public,41918,18374,63433
+biology,Louisiana Tech University,Public,39969,18720,47164
+biology,Northwestern State University of Louisiana,Public,44733,21223,47666
+biology,Xavier University of Louisiana,"Private, nonprofit",60761,17837,49542
+biology,University of New England,"Private, nonprofit",82603,29691,70032
+biology,Loyola University Maryland,"Private, nonprofit",82520,31172,95658
+biology,University of Maryland-Baltimore County,Public,45502,23622,65647
+biology,University of Maryland-College Park,Public,52688,24993,72024
+biology,Morgan State University,Public,62640,24942,49750
+biology,Salisbury University,Public,59738,32871,58765
+biology,Towson University,Public,42259,31534,65900
+biology,Stevenson University,"Private, nonprofit",74673,31615,61979
+biology,Washington College,"Private, nonprofit",85134,28655,68950
+biology,Boston College,"Private, nonprofit",74959,38609,80290
+biology,Boston University,"Private, nonprofit",118813,30006,67946
+biochem+,Boston University,"Private, nonprofit",80000,38708,75390
+biology,Brandeis University,"Private, nonprofit",64438,33914,66306
+biology,Emmanuel College,"Private, nonprofit",64643,37510,83922
+biology,University of Massachusetts-Lowell,Public,46203,39628,77274
+biology,University of Massachusetts-Amherst,Public,46250,31324,68103
+biology,Northeastern University,"Private, nonprofit",68059,43916,97536
+biology,Salem State University,Public,48756,37411,73807
+biology,Suffolk University,"Private, nonprofit",64950,40667,53943
+biology,Central Michigan University,Public,59807,24895,67750
+biology,University of Detroit Mercy,"Private, nonprofit",41626,21838,103618
+biology,Grand Valley State University,Public,47506,31914,52780
+biochem+,University of Michigan-Ann Arbor,Public,40413,18827,65675
+biology,Michigan State University,Public,75548,23885,66211
+biochem+,Michigan State University,Public,82741,36979,70734
+biology,Northern Michigan University,Public,48624,24325,54276
+biology,Oakland University,Public,42115,25099,50615
+biology,Wayne State University,Public,31839,23098,63808
+biology,Western Michigan University,Public,52437,30671,60159
+biology,University of Minnesota-Twin Cities,Public,45701,30340,70348
+biochem+,University of Minnesota-Twin Cities,Public,41427,30316,68953
+biology,University of Minnesota-Duluth,Public,35766,28721,59593
+biology,Alcorn State University,Public,38358,21945,45184
+biology,Jackson State University,Public,48006,23341,45403
+biology,University of Mississippi,Public,48252,22078,65624
+biology,Mississippi State University,Public,38149,22403,65609
+biochem+,Mississippi State University,Public,43819,21888,56867
+biology,University of Missouri-Columbia,Public,63548,24544,65628
+biology,University of Missouri-Kansas City,Public,34335,31512,70410
+biology,Missouri University of Science and Technology,Public,63250,30701,58127
+biology,Northwest Missouri State University,Public,55895,26708,54616
+biology,Saint Louis University,"Private, nonprofit",57144,19366,64951
+biology,Southeast Missouri State University,Public,31990,25035,55185
+biology,Missouri State University-Springfield,Public,30391,27017,50534
+biology,Montana State University,Public,54802,22546,44208
+biology,University of Nebraska at Omaha,Public,27817,29450,50130
+biology,University of Nebraska-Lincoln,Public,52440,27263,62754
+biochem+,University of Nebraska-Lincoln,Public,45659,29705,65264
+biology,University of Nevada-Las Vegas,Public,31970,21244,65805
+biology,University of Nevada-Reno,Public,50761,28742,58918
+biology,University of New Hampshire-Main Campus,Public,53110,35977,73435
+biology,University of New Hampshire at Manchester,Public,53110,35977,73435
+biology,Fairleigh Dickinson University-Metropolitan Campus,"Private, nonprofit",62451,16972,66783
+biology,Fairleigh Dickinson University-Florham Campus,"Private, nonprofit",62451,16972,66783
+biology,Rowan University,Public,44257,29579,67138
+biology,Kean University,Public,48353,34115,66502
+biology,Monmouth University,"Private, nonprofit",99272,15432,72096
+biology,Montclair State University,Public,51221,31870,63209
+biology,Rutgers University-Camden,Public,49633,26120,72842
+biology,Rutgers University-New Brunswick,Public,49633,26120,72842
+biology,Rutgers University-Newark,Public,49633,26120,72842
+biology,Saint Peter's University,"Private, nonprofit",39556,26644,69610
+biology,Seton Hall University,"Private, nonprofit",71083,20650,90211
+biology,Stockton University,Public,54875,23379,62369
+biology,Cornell University,"Private, nonprofit",68010,29066,69997
+biology,Hartwick College,"Private, nonprofit",83620,30695,59512
+biology,Le Moyne College,"Private, nonprofit",63973,26755,69768
+biology,Long Island University,"Private, nonprofit",100832,20417,80268
+biology,Manhattan College,"Private, nonprofit",77052,28784,63480
+biology,Marist College,"Private, nonprofit",70286,22690,80780
+biology,New York University,"Private, nonprofit",98344,20981,68813
+biochem+,New York University,"Private, nonprofit",72541,31324,76993
+biology,New York Institute of Technology,"Private, nonprofit",52663,17342,77653
+biology,Pace University,"Private, nonprofit",91888,29636,66071
+biology,Rochester Institute of Technology,"Private, nonprofit",59154,26125,63011
+biology,University of Rochester,"Private, nonprofit",62794,28825,79479
+biology,St. John Fisher University,"Private, nonprofit",78729,25951,66181
+biology,St. John's University-New York,"Private, nonprofit",88756,20948,63121
+biology,University at Albany,Public,38678,28112,60820
+biology,Binghamton University,Public,47302,22816,68571
+biology,University at Buffalo,Public,40531,23366,68513
+biology,Stony Brook University,Public,38052,24862,68096
+biology,SUNY College at Geneseo,Public,38210,22760,72710
+biology,SUNY Oneonta,Public,37035,27099,64031
+biology,State University of New York at Oswego,Public,44453,31543,66561
+biology,SUNY College at Potsdam,Public,39376,24842,59284
+biology,Syracuse University,"Private, nonprofit",67615,26042,71471
+biology,Appalachian State University,Public,41979,27318,67233
+biology,Campbell University,"Private, nonprofit",81206,23398,58299
+biology,Duke University,"Private, nonprofit",63555,20909,70605
+biology,East Carolina University,Public,52236,32720,54515
+biology,Johnson C Smith University,"Private, nonprofit",49827,22878,41716
+biology,Meredith College,"Private, nonprofit",66088,33114,67687
+biology,North Carolina A & T State University,Public,53842,26673,48308
+biology,University of North Carolina at Chapel Hill,Public,39010,24522,64430
+biology,University of North Carolina at Charlotte,Public,37063,28310,59911
+biology,University of North Carolina at Greensboro,Public,40407,31393,47546
+biology,North Carolina Central University,Public,41175,28377,53779
+biology,North Carolina State University at Raleigh,Public,52800,27992,68124
+biology,University of North Carolina Wilmington,Public,51767,31283,58157
+biology,University of North Carolina at Pembroke,Public,44184,27360,45619
+biology,Wake Forest University,"Private, nonprofit",80079,24506,66200
+biology,Wingate University,"Private, nonprofit",63431,31058,55688
+biology,Winston-Salem State University,Public,41292,32123,46686
+biology,Western Carolina University,Public,47630,24606,55306
+biology,University of Akron Main Campus,Public,40316,23298,61961
+biology,Bowling Green State University-Main Campus,Public,53120,27176,48161
+biology,Case Western Reserve University,"Private, nonprofit",94154,20114,63457
+biology,University of Cincinnati-Main Campus,Public,51250,32063,64065
+biology,University of Dayton,"Private, nonprofit",56125,23411,64526
+biology,John Carroll University,"Private, nonprofit",53906,25822,64836
+biology,Kent State University at Stark,Public,40326,26413,57546
+biology,Kent State University at Kent,Public,40326,26413,57546
+biology,Miami University-Oxford,Public,68507,29985,69675
+biology,Ohio State University-Lima Campus,Public,59535,27470,67156
+biology,Ohio State University-Marion Campus,Public,59535,27470,67156
+biology,Ohio State University-Main Campus,Public,59535,27470,67156
+biology,University of Toledo,Public,45948,18220,66410
+biology,Xavier University,"Private, nonprofit",77630,25531,64340
+biology,Youngstown State University,Public,33661,24769,62060
+biology,Oregon State University,Public,46859,25537,54017
+biology,University of Oregon,Public,92397,25938,59129
+biology,Pacific University,"Private, nonprofit",82130,26792,61102
+biology,University of Portland,"Private, nonprofit",85531,27707,53076
+biology,Allegheny College,"Private, nonprofit",67772,26693,68667
+biology,Arcadia University,"Private, nonprofit",61000,25274,72595
+biology,Drexel University,"Private, nonprofit",86198,29532,74257
+biology,Duquesne University,"Private, nonprofit",94704,22599,72885
+biology,Indiana University of Pennsylvania-Main Campus,Public,53000,27209,56353
+biology,Kutztown University of Pennsylvania,Public,44233,37217,63677
+biology,Millersville University of Pennsylvania,Public,63100,32733,55524
+biology,University of Pittsburgh-Bradford,Public,68250,24508,61794
+biology,University of Pittsburgh-Greensburg,Public,68250,24508,61794
+biology,University of Pittsburgh-Johnstown,Public,68250,24508,61794
+biology,University of Pittsburgh-Pittsburgh Campus,Public,68250,24508,61794
+biology,University of Scranton,"Private, nonprofit",78000,20345,70210
+biology,Shippensburg University of Pennsylvania,Public,68286,32226,64132
+biology,Susquehanna University,"Private, nonprofit",74695,24158,68030
+biology,Temple University,Public,67495,30888,73979
+biology,Ursinus College,"Private, nonprofit",74248,33137,69216
+biology,York College of Pennsylvania,"Private, nonprofit",43893,33386,66359
+biology,Brown University,"Private, nonprofit",73460,29535,65144
+biology,University of Rhode Island,Public,47518,36120,74984
+biology,College of Charleston,Public,53493,27218,60971
+biology,Claflin University,"Private, nonprofit",41218,19551,41239
+biology,Clemson University,Public,55273,21728,65919
+biology,Francis Marion University,Public,41734,23804,46343
+biology,University of South Carolina-Columbia,Public,62492,24955,60846
+biology,Coastal Carolina University,Public,63635,26355,49256
+biology,South Carolina State University,Public,75980,20692,38985
+biology,Winthrop University,Public,49898,26484,48396
+biology,University of South Dakota,Public,33843,24185,64695
+biology,Middle Tennessee State University,Public,26500,30711,52665
+biology,The University of Tennessee-Chattanooga,Public,33840,25103,52212
+biology,The University of Tennessee-Knoxville,Public,40588,22206,58414
+biology,Baylor University,"Private, nonprofit",74965,20866,63803
+biochem+,Baylor University,"Private, nonprofit",95054,28811,67262
+biology,Texas A & M University-Corpus Christi,Public,52402,27553,54313
+biology,University of Houston,Public,35282,25573,62349
+biology,University of the Incarnate Word,"Private, nonprofit",47863,24427,51820
+biology,University of North Texas,Public,50700,29298,55209
+biology,The University of Texas Rio Grande Valley,Public,17051,23287,55383
+biology,Prairie View A & M University,Public,46668,26385,48711
+biology,Sam Houston State University,Public,43258,32198,53949
+biology,Southern Methodist University,"Private, nonprofit",67205,34322,59316
+biology,Stephen F Austin State University,Public,42977,28351,42095
+biology,Texas State University,Public,47271,32646,53861
+biology,Texas A & M University-Kingsville,Public,38562,23337,54175
+biology,Texas A & M University-College Station,Public,49073,26047,64611
+biology,The University of Texas at Austin,Public,49208,29918,65785
+biochem+,The University of Texas at Austin,Public,39454,29853,73667
+biology,The University of Texas at El Paso,Public,26388,21716,51785
+biology,Texas Christian University,"Private, nonprofit",89273,24952,63409
+biology,The University of Texas at San Antonio,Public,28667,27802,55482
+biology,Texas Southern University,Public,46528,29030,44374
+biology,Texas Tech University,Public,42939,24862,55979
+biology,University of Vermont,Public,77877,32201,60654
+biology,Christopher Newport University,Public,71475,27901,59142
+biology,George Mason University,Public,44369,29849,68233
+biology,Hampton University,"Private, nonprofit",102236,22829,51602
+biology,James Madison University,Public,59064,27637,60841
+biology,Old Dominion University,Public,57653,28135,53794
+biology,Radford University,Public,43011,28755,56032
+biology,Randolph-Macon College,"Private, nonprofit",51543,36402,62791
+biology,Virginia Polytechnic Institute and State University,Public,59711,22263,63097
+biochem+,Virginia Polytechnic Institute and State University,Public,56961,31684,64877
+biology,Virginia Commonwealth University,Public,38734,24666,62092
+biology,University of Virginia-Main Campus,Public,63797,23465,67974
+biology,Virginia Union University,"Private, nonprofit",71854,26388,43899
+biology,Central Washington University,Public,49120,28926,51199
+biology,Gonzaga University,"Private, nonprofit",101619,26151,63788
+biology,Washington State University,Public,51143,29289,63464
+biology,University of Washington-Seattle Campus,Public,37782,32362,69087
+biochem+,University of Washington-Seattle Campus,Public,46048,28824,72792
+biology,West Virginia University Institute of Technology,Public,56778,26403,57866
+biology,West Virginia University,Public,56778,26403,57866
+biology,Marquette University,"Private, nonprofit",76118,23625,78304
+biology,University of Wisconsin-Whitewater,Public,47594,33307,56815
+biology,University of Wisconsin-La Crosse,Public,42497,32649,69335
+biology,University of Wisconsin-Madison,Public,58024,30913,68812
+biology,University of Wisconsin-Milwaukee,Public,42000,30067,56061
+biology,Purdue University-Main Campus,Public,47202,31579,77863
+biology,University of Washington-Bothell Campus,Public,37782,32362,69087
+biochem+,University of Washington-Bothell Campus,Public,46048,28824,72792
+biology,University of Washington-Tacoma Campus,Public,37782,32362,69087
+biology,California State University-Monterey Bay,Public,43500,31700,45572
+biology,University of Connecticut-Waterbury Campus,Public,67211,29040,71208
+biology,University of Connecticut-Avery Point,Public,67211,29040,71208
+biology,University of Connecticut-Stamford,Public,67211,29040,71208
+biology,Oregon State University-Cascades Campus,Public,46859,25537,54017
+biology,California State University-Channel Islands,Public,50565,33204,69162
+biology,University of California-Merced,Public,33000,29685,67342
+biology,University of Connecticut-Hartford Campus,Public,67211,29040,71208
+biology,Northeastern University Professional Programs,"Private, nonprofit",68059,43916,97536
+biology,Arizona State University Digital Immersion,Public,43956,28259,58703
+biochem+,Arizona State University Digital Immersion,Public,35605,31415,66602
+biology,University of Florida-Online,Public,33212,19456,66170
+biology,Kennesaw State University,Public,46890,30842,56720
+biology,The Pennsylvania State University,Public,73090,28620,68771
+biochem+,The Pennsylvania State University,Public,77750,30110,66816

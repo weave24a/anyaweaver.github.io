@@ -34,19 +34,6 @@ knitr::opts_chunk$set(
   fig.align = 'center')
 ```
 
----
-title: "Data Evaluation for Final Project"
-subtitle: "STAT 244"
-author: "Anya Weaver"
-output:
-  pdf_document:
-    fig_height: 1.5
-    fig_width: 4
-    highlight: zenburn
-header-includes:
-  - \usepackage{booktabs}
----
-
 Setup file
 
 ```{r setup, include=FALSE}
@@ -59,119 +46,142 @@ library(gridExtra)
 library(mosaic)
 library(gmodels)
 library(Sleuth3)
+library(tidyverse)
+library(tidymodels)
+library(readxl)
 ```
+
+## Load Original Dataset and Pare it Down
+
+### Load and Asses Original Dataset:
 
 Load dataset of interest:
 
 ```{r}
-#commented out because I made a new CSV
-#field = read_csv("Field.csv")
+field = read_csv("Field.csv")
 ```
 
 Rename CIPDESC to major for clarity:
 
 ```{r}
-#field = rename(field, Major = CIPDESC)
+field = rename(field, Major = CIPDESC)
 ```
 
 Asses contents of Dataset:
 
 ```{r}
-#head(field)
+head(field)
 ```
 
 Sort by Major to asses options:
 
 ```{r}
-# commented out b/c it takes a while, makes a lot of data, and I don't need to do it again
-#table(field$major)
+table(field$major)
 ```
 
-Mutate Dataset to only include Biology, General and  Biochemistry, Biophysics and Molecular Biology Majors & rename those majors to biology and biochem+:
+### Mutate and Rename Dataset to Filter out Undesired Variables
+
+Mutate Dataset to only include Biology, General and Biochemistry, Biophysics and Molecular Biology Majors & rename those majors to biology and biochem+:
 
 ```{r}
-#field = field  %>% mutate(Major = ifelse(Major == 'Biochemistry, Biophysics and Molecular Biology.', "biochem+", Major))
+field = field  %>% mutate(Major = ifelse(Major == 'Biochemistry, Biophysics and Molecular Biology.', "biochem+", Major))
 
-#field = field  %>% mutate(Major = ifelse(Major == 'Biology, General.', "biology", Major))
+field = field  %>% mutate(Major = ifelse(Major == 'Biology, General.', "biology", Major))
 
-#bio <- field %>% filter((Major == 'biochem+') | (Major == 'biology'))
+bio <- field %>% filter((Major == 'biochem+') | (Major == 'biology'))
 
-#bio <- bio %>% mutate(Major = as.factor(Major))
+bio <- bio %>% mutate(Major = as.factor(Major))
 ```
 
 Turn new dataset into its own CSV so I don't have to load field again:
 
 ```{r}
-#commented out because I only need the one CSV
-#write_csv(bio, "bio.csv")
-#bio = read_csv("bio.csv")
+write_csv(bio, "bio.csv")
+bio = read_csv("bio.csv")
 ```
 
 Mutate Dataset to only include some variables:
 
 ```{r}
-#figure out what column names translate to the columns DEBTMEDIAN, DEBTMEAN, and MD_EARN_WNE. Figure out how gender comes into it. 
-
-# bio <- bio %>% select(Major, INSTNM, CONTROL, CREDDESC, DEBT_ALL_PP_EVAL_MDN, DEBT_ALL_STGP_EVAL_MDN, EARN_MDN_HI_1YR, DISTANCE, EARN_MDN_5YR)
-# head(bio)
+bio <- bio %>% select(Major, INSTNM, CONTROL, CREDDESC, DEBT_ALL_PP_EVAL_MDN, DEBT_ALL_STGP_EVAL_MDN, EARN_MDN_HI_1YR, DISTANCE, EARN_MDN_5YR)
+head(bio)
 ```
 
 Filter out non responses:
 
 ```{r}
-# bio = bio %>% filter(!is.na(DEBT_ALL_PP_EVAL_MDN) & (DEBT_ALL_PP_EVAL_MDN !="PS"))
+bio = bio %>% filter(!is.na(DEBT_ALL_PP_EVAL_MDN) & (DEBT_ALL_PP_EVAL_MDN !="PS"))
 ```
+
+### Edit Remaining Variables for Usefulness
 
 Add STGPand PP together to make one value for debt:
 
 ```{r}
-# bio$DEBT_ALL_PP_EVAL_MDN = as.numeric(bio$DEBT_ALL_PP_EVAL_MDN)
-# bio$DEBT_ALL_STGP_EVAL_MDN = as.numeric(bio$DEBT_ALL_STGP_EVAL_MDN)
-# bio$Debt_median <- bio$DEBT_ALL_PP_EVAL_MDN + bio$DEBT_ALL_STGP_EVAL_MDN
+bio$DEBT_ALL_PP_EVAL_MDN = as.numeric(bio$DEBT_ALL_PP_EVAL_MDN)
+bio$DEBT_ALL_STGP_EVAL_MDN = as.numeric(bio$DEBT_ALL_STGP_EVAL_MDN)
+bio$Debt_median <- bio$DEBT_ALL_PP_EVAL_MDN + bio$DEBT_ALL_STGP_EVAL_MDN
 ```
 
 Rename included variables for clarity:
 
 ```{r}
-# bio = rename(bio, Institution = INSTNM)
-# bio = rename(bio, School_type = CONTROL)
-# bio = rename(bio, Degree = CREDDESC)
-# bio = rename(bio, Distance = DISTANCE)
-# bio = rename(bio, Earnings_median_1yr = EARN_MDN_HI_1YR)
-# bio = rename(bio, Earnings_median_5yr = EARN_MDN_5YR)
+bio = rename(bio, Institution = INSTNM)
+bio = rename(bio, School_type = CONTROL)
+bio = rename(bio, Degree = CREDDESC)
+bio = rename(bio, Distance = DISTANCE)
+bio = rename(bio, Earnings_median_1yr = EARN_MDN_HI_1YR)
+bio = rename(bio, Earnings_median_5yr = EARN_MDN_5YR)
 ```
 
 Remove old columns:
 
 ```{r}
-# bio <- bio %>% select(Major, Institution, 
-#                           School_type, Degree, Debt_median, Distance, Earnings_median_1yr, Earnings_median_5yr)
-# head(bio)
+bio <- bio %>% select(Major, Institution,
+                        School_type, Debt_median, Earnings_median_1yr, Earnings_median_5yr)
+head(bio)
 ```
+
 Filter out NAs:
 
 ```{r}
-# bio$Earnings_median_1yr = as.numeric(bio$Earnings_median_1yr)
-# bio$Earnings_median_5yr = as.numeric(bio$Earnings_median_5yr)
+bio$Earnings_median_1yr = as.numeric(bio$Earnings_median_1yr)
+bio$Earnings_median_5yr = as.numeric(bio$Earnings_median_5yr)
 ```
-
 
 Make sure quantitative variables are recorded as numbers:
 
 ```{r}
-# bio = bio %>% filter(!is.na(Earnings_median_1yr) & (Earnings_median_5yr !="PS"))
-# bio$Earnings_median_1yr = as.numeric(bio$Earnings_median_1yr)
-# bio$Earnings_median_5yr = as.numeric(bio$Earnings_median_5yr)
+bio = bio %>% filter(!is.na(Earnings_median_1yr) & (Earnings_median_5yr !="PS"))
+bio$Earnings_median_1yr = as.numeric(bio$Earnings_median_1yr)
+bio$Earnings_median_5yr = as.numeric(bio$Earnings_median_5yr)
 ```
+
+## Load and Analyze New Dataset
 
 Read Bio:
 
 ```{r}
-# write_csv(bio, "bio.csv")
+write_csv(bio, "bio.csv")
 bio = read_csv("bio.csv")
 ```
 
+Checkpoint 1 information
+
+```{r}
+head(bio)
+```
+
 Analyze Quantitative Variables:
+
+```{r}
+lm_spec <- linear_reg() %>% 
+  # Output Y is quantitative
+  set_mode("regression") %>%
+  # Want regression to be linear
+  set_engine("lm")
+```
+
 
 ```{r}
 mean(bio$Debt_median)
@@ -190,8 +200,6 @@ Analyze Qualitative Variables:
 count(bio$Institution)
 
 count(bio$School_type)
-
-count(bio$Degree)
 
 count(bio$Distance)
 
@@ -224,7 +232,305 @@ theme_classic()
 Histograms for dataset:
 
 ```{r}
+bio %>%
+ggplot(aes(x = School_type, y = Debt_median)) +
+geom_boxplot() +
+labs(x = 'Type of School', y = 'Median Debt ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = School_type, y = Earnings_median_5yr+Earnings_median_1yr)) +
+geom_boxplot() +
+labs(x = 'Type of School', y = 'Median Earnings 1 and 5 Years After Graduation ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Major, y = Debt_median)) +
+geom_boxplot() +
+labs(x = 'Major', y = 'Median Debt ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Major, y = Earnings_median_5yr+Earnings_median_1yr)) +
+geom_boxplot() +
+labs(x = 'Major', y = 'Median Earnings 1 and 5 Years After Graduation ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Major, y = Earnings_median_5yr)) +
+geom_boxplot() +
+labs(x = 'Major', y = 'Median Earnings 5 Years After Graduation ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Major, y = Earnings_median_1yr)) +
+geom_boxplot() +
+labs(x = 'Major', y = 'Median Earnings 1 Year After Graduation ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Major, y = Earnings_median_1yr-Debt_median)) +
+geom_boxplot() +
+labs(x = 'Major', y = 'Median Earnings 1 Year After Graduation - Median Debt ($)') +
+theme_classic()
+
+bio %>%
+ggplot(aes(x = Major, y = Earnings_median_5yr-Debt_median)) +
+geom_boxplot() +
+labs(x = 'Major', y = 'Median Earnings 1 Year After Graduation - Median Debt ($)') +
+theme_classic()
+```
+
+## Cross Validation
+
+### In sample MAES In Sample MAE for Model 1
+
+```{r}
+model_1 <- lm_spec %>%
+fit(Earnings_median_5yr ~ Debt_median, data = bio)
+
+model_1 %>%
+augment(new_data = bio) %>%
+mae(truth = Earnings_median_5yr, estimate = .pred)
+```
+
+### In Sample MAE for Model 2
+
+```{r}
+model_2 <- lm_spec %>%
+fit(Earnings_median_5yr ~ Earnings_median_1yr + Debt_median, data = bio)
+
+model_2 %>%
+augment(new_data = bio) %>%
+mae(truth = Earnings_median_5yr, estimate = .pred)
+```
+
+### In sample MAE for Model 3
+
+```{r}
+model_3 <- lm_spec %>%
+fit(Earnings_median_5yr ~ Earnings_median_1yr + Debt_median + Major, data = bio)
+
+model_3 %>%
+augment(new_data = bio) %>%
+mae(truth = Earnings_median_5yr, estimate = .pred)
+```
+
+### 10-fold Cross Validation
+
+10-fold Cross Validation for Model 1
+
+```{r}
+set.seed(244)
+model_1_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Earnings_median_5yr ~ Debt_median,
+resamples = vfold_cv(bio, v = 10),
+metrics = metric_set(mae, rsq)
+)
+model_1_cv %>%
+collect_metrics()
+```
+
+10-fold Cross Validation for Model 2
+
+```{r}
+set.seed(244)
+model_2_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Earnings_median_5yr ~ Earnings_median_1yr + Debt_median,
+resamples = vfold_cv(bio, v = 10),
+metrics = metric_set(mae, rsq)
+)
+model_2_cv %>%
+collect_metrics()
+```
+
+10-fold Cross Validation for Model 3
+
+```{r}
+set.seed(244)
+model_3_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Earnings_median_5yr ~ Earnings_median_1yr + Debt_median + Major,
+resamples = vfold_cv(bio, v = 10),
+metrics = metric_set(mae, rsq)
+)
+model_3_cv %>%
+collect_metrics()
+```
+
+### LOOCV
+
+LOOCV for Model 1
+
+```{r}
+# model_1_loocv <- lm_spec %>%
+# fit_resamples(
+# Earnings_median_5yr ~ Debt_median,
+# resamples = vfold_cv(bio, v = nrow(bio)),
+# metrics = metric_set(mae)
+# )
+# model_1_loocv %>% collect_metrics()
+```
+
+LOOCV for Model 2
+
+```{r}
+# model_2_loocv <- lm_spec %>%
+# fit_resamples(
+# Earnings_median_5yr ~ Earnings_median_1yr + Debt_median,
+# resamples = vfold_cv(bio, v = nrow(bio)),
+# metrics = metric_set(mae)
+# )
+# model_2_loocv %>% collect_metrics()
+```
+
+LOOCV for Model 3
+
+```{r}
+# model_3_loocv <- lm_spec %>%
+# fit_resamples(
+# Earnings_median_5yr ~ Earnings_median_1yr + Debt_median + Major,
+# resamples = vfold_cv(bio, v = nrow(bio)),
+# metrics = metric_set(mae)
+# )
+# model_3_loocv %>% collect_metrics()
+```
+
+### 5-fold Cross Validation
+
+5-fold Cross Validation for Model 1
+
+```{r}
+set.seed(253)
+model_1_5fcv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Earnings_median_5yr ~ Debt_median,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae, rsq)
+)
+model_1_5fcv %>%
+collect_metrics()
+```
+
+5-fold Cross Validation for Model 2
+
+```{r}
+set.seed(253)
+model_2_5fcv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Earnings_median_5yr ~ Earnings_median_1yr + Debt_median,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae, rsq)
+)
+model_2_5fcv %>%
+collect_metrics()
+```
+
+5-fold Cross Validation for Model 3
+
+```{r}
+
+set.seed(253)
+model_3_5fcv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Earnings_median_5yr ~ Earnings_median_1yr + Debt_median + Major,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae, rsq)
+)
+model_3_5fcv %>%
+collect_metrics()
+```
+
+## Variable Subset Selection
+
+Specify Full Model
+
+```{r}
+lm_spec <- linear_reg() %>%
+set_mode("regression") %>%
+set_engine("lm")
+# STEP 2: Model estimation
+
+bio$School_type = as.factor(bio$School_type)
+bio$Major = as.factor(bio$Major)
+bio_model_1 <- lm_spec %>%
+fit(Earnings_median_5yr ~ Major + Institution + School_type + Debt_median + Earnings_median_1yr, data = bio)
+# Look at model
+bio_model_1 %>% tidy()
+```
+
+### Backwards Subset Selection
+
+1.  Compute the 5-fold MAE of the model with 4 predictors.
+
+```{r}
+set.seed(244)
+model_4_predictors_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Major + School_type + Debt_median + Earnings_median_1yr,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae)
+)
+model_4_predictors_cv %>% collect_metrics()
+
+
+summary(lm(Earnings_median_5yr ~ Major + School_type + Debt_median + Earnings_median_1yr, data = bio))
+```
+Based on p-value, we can try eliminating School_type. 
+
+2.  Compute 5-fold MAE of the model with only 3 predictors.
+
+```{r}
+set.seed(244)
+model_3_predictors_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~ Major + Debt_median + Earnings_median_1yr,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae)
+)
+model_3_predictors_cv %>% collect_metrics()
+
+summary(lm(Earnings_median_5yr ~ Major  + Debt_median + Earnings_median_1yr, data = bio))
+
+```
+
+Biggest p-value is for Major, so we remove it. 
+
+3.  Compute 5-fold MAE of the model with only 2 predictors.
+
+```{r}
+set.seed(244)
+model_2_predictors_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~  Debt_median + Earnings_median_1yr,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae)
+)
+model_2_predictors_cv %>% collect_metrics()
+
+summary(lm(Earnings_median_5yr ~ Debt_median + Earnings_median_1yr, data = bio))
+
+
+```
+We remove the Debt_median predictor based on its higher p-value.
+
+4. Compute 5-fold MAE of the model with only 1 predictor. 
+```{r}
+set.seed(244)
+model_1_predictors_cv <- lm_spec %>%
+fit_resamples(
+Earnings_median_5yr ~   Earnings_median_1yr,
+resamples = vfold_cv(bio, v = 5),
+metrics = metric_set(mae)
+)
+model_1_predictors_cv %>% collect_metrics()
+
+summary(lm(Earnings_median_5yr ~ Earnings_median_1yr, data = bio))
+
 
 ```
 
 
+In conclusion, the best model is the one with all 4 predictors (lowest CV error.)
